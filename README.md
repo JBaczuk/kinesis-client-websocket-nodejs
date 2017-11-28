@@ -2,10 +2,12 @@
 Simple Websocket Chatroom using Node.js
 
 ## Set up
-```
-export AWS_ACCESS_KEY_ID=
-export AWS_SECRET_ACCESS_KEY=
-```
+`npm i`
 
-## Build binary
+## Run
+**Run server:**  
+`npm run dev`
+`node chat_client.js`
+
+## Build binary (optional)
 `pkg chat_client.js`

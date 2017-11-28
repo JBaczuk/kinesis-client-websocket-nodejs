@@ -2,9 +2,9 @@
   "name": "kinesis-client-websocket-nodejs",
   "version": "1.0.0",
   "description": "Kinesis Client in Node.js that exposes a websocket API",
-  "main": "index.js",
+  "main": "chat_server.js",
   "scripts": {
-    "dev": "node index.js",
+    "dev": "node chat_server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
