@@ -6,8 +6,10 @@ Simple Websocket Chatroom using Node.js
 
 ## Run
 **Run server:**  
-`npm run dev`
-`node chat_client.js`
+```
+npm run dev
+node chat_client.js
+```
 
 ## Build binary (optional)
 `pkg chat_client.js`
