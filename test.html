@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Websocket Test Browser Client</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            var ws = new WebSocket("ws://localhost:8080");
+            
+            ws.onopen = function(evt) { console.log("Connection open ..."); };
+            ws.onmessage = function(evt) { console.log( "Received Message:  "  +  evt.data); };
+            ws.onclose = function(evt) { console.log("Connection closed."); };
+        </script>
+    </body>
+</html>

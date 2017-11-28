@@ -1,0 +1,31 @@
+{
+  "name": "kinesis-client-websocket-nodejs",
+  "version": "1.0.0",
+  "description": "Kinesis Client in Node.js that exposes a websocket API",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JBaczuk/kinesis-client-websocket-nodejs.git"
+  },
+  "author": "Jordan Baczuk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JBaczuk/kinesis-client-websocket-nodejs/issues"
+  },
+  "homepage": "https://github.com/JBaczuk/kinesis-client-websocket-nodejs#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "express": "^4.16.2",
+    "http": "0.0.0",
+    "readline": "^1.3.0",
+    "url": "^0.11.0",
+    "ws": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
