@@ -20,12 +20,13 @@ else {
 
 function initConnection(id) {
     userId = id;
-    ws = new WebSocket('ws://flockchat.local:8080', {
+    // NOTE: Change this url to the server's ip address/domain
+    ws = new WebSocket('ws://localhost:8000', {
         origin: id,
         perMessageDeflate: false,
     });
     ws.on('open', function open(ws, req) {
-        console.log("= Connection to flockchat established!".blue);
+        console.log("= Connection to chatroom established!".blue);
         flush(prompt);
     });
     
@@ -36,8 +37,8 @@ function initConnection(id) {
 }
 
 function welcome() {
-    console.log(["= Welcome to Flockchat"
-        , "= A safe space for off color jokes"
+    console.log(["= Welcome to Websocket Chatroom"
+        , "= Please keep it civil - or don't who cares"
     ].join('\n').blue);
 }
 
